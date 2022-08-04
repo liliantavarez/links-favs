@@ -3,6 +3,7 @@ const app = express();
 const PORT = 3000;
 const path = require("path");
 const linkRouter = require("./routers/linkRouter");
+const mongoose = require("mongoose");
 
 /* Definindo template */
 app.set("view engine", "ejs");
