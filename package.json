@@ -18,6 +18,7 @@
   "homepage": "https://github.com/liliantavarez/save-links#readme",
   "dependencies": {
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
   }
 }
