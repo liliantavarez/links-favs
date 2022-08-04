@@ -25,7 +25,19 @@ const addLink = async (req, res) => {
   }
 };
 
+/* realizando busca no banco de dados */
+const allLinks = async (req, res) => {
+  try {
+    let docs = await Link.find({});
+    res.render("all", { links: docs });
+  } catch (error) {
+    res.send(error);
+  }
+};
+
+
 module.exports = {
   redirect,
   addLink,
+  allLinks,
 };
