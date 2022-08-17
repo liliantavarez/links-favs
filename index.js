@@ -1,10 +1,10 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 const path = require("path");
 const linkRouter = require("./routers/linkRouter");
 const mongoose = require("mongoose");
-require("dotenv").config();
 
 /* Definindo template */
 app.set("view engine", "ejs");
