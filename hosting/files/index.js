@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 const path = require("path");
 const linkRouter = require("./routers/linkRouter");
 const mongoose = require("mongoose");
