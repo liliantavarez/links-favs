@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "templates"));
 
 /* Conexão com o banco de dados */
-mongoose.connect(process.env.MONGOOSE_URL_CONNECTION);
+mongoose.connect(process.env.DATABASE_URL);
 let db = mongoose.connection;
 
 db.on("error", () => {
