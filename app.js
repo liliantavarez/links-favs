@@ -5,7 +5,9 @@ const PORT = process.env.PORT || 3000;
 const path = require("path");
 const linkRouter = require("./routers/linkRouter");
 const mongoose = require("mongoose");
+var cors = require("cors");
 
+app.use(cors());
 /* Definindo template */
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "templates"));
