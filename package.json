@@ -1,27 +1,26 @@
 {
-  "name": "save-links",
-  "version": "1.0.0",
-  "description": "Aplicação para salvar links",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liliantavarez/save-links.git"
-  },
-  "author": "Lilian Carvalho",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liliantavarez/save-links/issues"
-  },
-  "homepage": "https://github.com/liliantavarez/save-links#readme",
-  "dependencies": {
-    "dotenv": "^16.0.1",
-    "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "heroku": "^7.62.0",
-    "mongoose": "^6.5.1"
-  }
+	"name": "save-links",
+	"version": "1.0.0",
+	"description": "Aplicação para salvar links",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/liliantavarez/save-links.git"
+	},
+	"author": "Lilian Carvalho",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/liliantavarez/save-links/issues"
+	},
+	"homepage": "https://github.com/liliantavarez/save-links#readme",
+	"dependencies": {
+		"dotenv": "^16.0.1",
+		"ejs": "^3.1.8",
+		"express": "^4.18.1",
+		"heroku": "^7.62.0",
+		"mongoose": "^6.5.1"
+	}
 }
