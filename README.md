@@ -3,7 +3,7 @@
 
 Aplicação desenvolvida com objetivo de praticar o uso do mongoDB com nodeJS, permite ao usuário organizar links importantes e acessá-los remotamente. 
 
-### Deploy da aplicação: [Acesse aqui a aplicação!](https://favs-links.herokuapp.com/)
+### Deploy da aplicação: [Acesse aqui!](https://favs-links.herokuapp.com/)
 
 ## Funcionalidades
 
