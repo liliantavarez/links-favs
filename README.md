@@ -10,8 +10,8 @@ Aplicação desenvolvida com objetivo de praticar o uso do mongoDB com nodeJS, p
 - Adicionar, editar, excluir e acessar links salvos.
 
 ## 🚀 Tecnologias
-- ⚡ Express — A web framework for Node.js
-- 💾 Mongoose — SQL dialect ORM for Node.js
+- ⚡ Express 
+- 💾 Mongoose
 
 ## 🔥 Instalação e execução
 1. Faça um clone desse repositório;
